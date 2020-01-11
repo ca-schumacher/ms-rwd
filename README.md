@@ -49,7 +49,8 @@ For a more detailed overview of the tests, see https://www.jmir.org/2019/8/e1486
 After cleaning and feature engineering of the dataset, I trained different classification models on the data (Logistic Regression, k-Nearest Neighbors, Naive Bayes, Random Forest). To evaluate the performance of these models, the ROC curve (receiver operating characteristic curve), which assesses the rate of True Positive and False Positive classifications, was used. I performed cross-validation to further check if the obtained results were robust or if the applied models overfitted. 
 
 ## EDA & Modelling
-To access the explorative data analysis (EDA) open the Notebook https://github.com/ca-schumacher/ms-rwd/blob/master/EDA.ipynb. To see the implementation of the models and classification results open this notebook https://github.com/ca-schumacher/ms-rwd/blob/master/Classification_model.ipynb.
+To access the explorative data analysis (EDA) open the Notebook: https://github.com/ca-schumacher/ms-rwd/blob/master/EDA.ipynb.  
+To see the implementation of the models and classification results open this notebook: https://github.com/ca-schumacher/ms-rwd/blob/master/Classification_model.ipynb.
 
 ## Results and Conclusions
 in the dataset, people with a MS diagnosis are generelly older, smaller and with similar weight. Additionally, participants with MS responded with lower mood than controls. Appart from that, no clear difference could be found. However, the mood of the particpants did not correlate to any of the test metrics. Also, I could not find correlations between test results. 
